@@ -3,6 +3,7 @@ FROM elixir:1.4-slim
 RUN DEBIAN_FRONTEND=noninteractive \
     && runtimeDeps=' \
         ca-certificates \
+        g++ \
         gcc \
         git-core \
         make \
