@@ -1,4 +1,4 @@
-FROM elixir:1.4-slim
+FROM elixir:1.5-slim
 
 RUN DEBIAN_FRONTEND=noninteractive \
     && runtimeDeps=' \
